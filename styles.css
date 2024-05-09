@@ -5,3 +5,48 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    border: 1px solid red;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#preview-image {
+    height: 350px;
+    width: 350px;
+}
+
+.price-time-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+}
+
+.time-container {
+    display: flex;
+}
+
+.autor-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#clock-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#ethereum-icon {
+    height: 22px;
+    width: 15px;
+}
