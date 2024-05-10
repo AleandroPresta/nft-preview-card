@@ -125,3 +125,10 @@ p {
 #author-name {
     color: var(--white);
 }
+
+#author-name:hover,
+.card-content > h3:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
